@@ -1,4 +1,5 @@
 AI-Powered Supply Chain & Inventory Predictor
+
 📌 Project Overview
 This project addresses a critical business challenge: Inventory Stockouts and Overstocking. I built an end-to-end data pipeline that analyzes retail inventory levels, identifies high-risk products, and uses Predictive Analytics to recommend safety stock levels and reorder points.
 
@@ -20,7 +21,7 @@ Version Control: Git & GitHub
 
 📈 Analysis & Insights
 1. Inventory Health Distribution
-I engineered a Stock_Status feature to categorize inventory.
+I engineered a Inventory_Status feature to categorize inventory.
 
 Healthy: Sufficient stock for current demand.
 
@@ -43,6 +44,7 @@ Plaintext
 ├── sql/                # SQL scripts for data processing
 ├── dashboard/          # Visualization exports and Power BI files
 └── README.md           # Project documentation
+
 🔧 How to Run
 Clone the repo: git clone https://github.com/your-username/supply-chain-analysis.git
 
@@ -51,8 +53,8 @@ Install dependencies: pip install pandas scikit-learn matplotlib seaborn
 Run the notebook: jupyter notebook notebooks/01_data_exploration.ipynb
 
 📝 Future Work
-[ ] Integrate a Power BI Dashboard for real-time monitoring.
+[1] Integrate a Power BI Dashboard for real-time monitoring.
 
-[ ] Implement an LSTM Deep Learning model for more accurate time-series forecasting.
+[2] Implement an LSTM Deep Learning model for more accurate time-series forecasting.
 
-[ ] Automate data ingestion via SQL.
+[3] Automate data ingestion via SQL.
